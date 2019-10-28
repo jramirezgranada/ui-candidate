@@ -1,0 +1,83 @@
+/*****
+ * Control CSS
+ * ========================================
+ * Do not make any changes to this file. apply changes to `variation.css`
+ */
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: #333;
+    line-height: 1.125;
+}
+
+article {
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 480px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+header {
+    background-color: #01314c;
+    padding: 10px 20px;
+    border-bottom: 1px solid #333;
+    margin-right: -20px;
+    margin-left: -20px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #01314c;
+    padding: 10px 20px;
+    border-top: 1px solid #333;
+    margin-top: 50px;
+    margin-right: -20px;
+    margin-left: -20px;
+    color: #fff;
+}
+
+blockquote {
+    margin: 0;
+    background-image: url("../images/quote.png");
+    background-repeat: no-repeat;
+    font-style: italic;
+    padding-left: 71px;
+}
+
+blockquote footer {
+    background-color: transparent;
+    border-top: none;
+    padding: 0;
+    margin: 0;
+    color: inherit;
+}
+
+aside {
+    border: 1px solid #999;
+    max-width: 280px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+aside h3 {
+    margin-top: 0
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+figure img {
+    width: auto;
+    max-width: 100%;
+}
+
+figcaption {
+    text-align: left;
+}
